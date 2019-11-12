@@ -1,0 +1,208 @@
+.prod {
+  display: flex;
+  margin-top: 48px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.prostokt-1-kopia {
+  flex: 1;
+  margin-left: 72px;
+  padding: 55px 38px;
+  z-index: 1;
+  height: 100vh;
+  box-shadow: 0 0 12.5px 0 rgba(219, 219, 219, 0.45);
+  background-color: #ffffff;
+}
+
+.like {
+  display: flex;
+  float: right;
+  align-items: center;
+  flex: 1;
+  span {
+    align-items: center;
+    font-size: 14.5px;
+    font-weight: 300;
+  }
+  button {
+    width: 16px;
+    height: 15px;
+    margin-left: 8px;
+    border: none;
+    background: url(../img/Heart.jpg) 16px 15px;
+    background-size: cover;
+    cursor: pointer;
+  }
+}
+
+.chair {
+  margin-top: 116px;
+  img {
+    width: 382px;
+    height: 382px;
+  }
+  .bot-prod {
+    margin-top: 102px;
+    display: flex;
+    .bot-prod-1 {
+      display: flex;
+      justify-content: flex-end;
+      width: 345px;
+    }
+    img {
+      width: 16px;
+      height: 16px;
+      margin-left: 11px;
+    }
+  }
+}
+.warstwa {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  flex: 2;
+}
+
+.warstwa-1 {
+  flex: 1;
+  padding: 22px 59px;
+  background: #f0f0ff;
+  .products-flex-for {
+    display: flex;
+    align-items: center;
+    .products {
+      font-size: 25px;
+      font-weight: 300;
+    }
+    img {
+      width: 26.5px;
+      height: 28.5px;
+    }
+    .lr {
+      margin: 0 19px 0 126px;
+      font-size: 9px;
+      letter-spacing: 0.2px;
+      text-align: right;
+      color: #c1c1c1;
+    }
+  }
+  .office {
+    font-size: 37px;
+    font-weight: 300;
+    margin-top: 114px;
+    letter-spacing: 0.9px;
+    color: #0023ff;
+    a {
+      color: black;
+      letter-spacing: 2.1px;
+    }
+  }
+  .lorem-ipsum-dolor {
+    width: 330px;
+    font-size: 12px;
+    margin-top: -6px;
+    font-weight: 300;
+    line-height: 2;
+    letter-spacing: 0.3px;
+    color: #a8a8a8;
+  }
+  .cost {
+    margin: 21px 165px -17px 0;
+    font-size: 10px;
+  }
+}
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0023ff;
+}
+
+.sale {
+  font-size: 12px;
+  margin-top: 14px;
+  font-weight: bold;
+  margin-left: 12px;
+}
+
+.prostokt-zaokrglony-4 {
+  display: flex;
+  margin: 5px 30px 0px 111px;
+  align-items: center;
+  border-radius: 13px;
+  background: #fff;
+  input {
+    width: 27.5px;
+    height: 25px;
+    align-items: center;
+    padding-left: 14px;
+    border-radius: 13px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+.add-to-card {
+  margin: 5px 0 0 0;
+  padding: 9px 24px 8px;
+  font-size: 9px;
+  font-weight: 900;
+  color: #fff;
+  border-radius: 30px;
+  border: none;
+  background: #0023ff;
+  cursor: pointer;
+}
+
+.test {
+  margin-bottom: 100px;
+}
+
+.warstwa-2 {
+  flex: 2;
+  background: #fff;
+  padding: 25px 38px;
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+.flex-container-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recomended {
+  display: block;
+  font-size: 19px;
+  writing-mode: vertical-rl;
+  color: #00000033;
+}
+
+.new-flex-container {
+  display: flex;
+  flex-direction: column;
+  .name-for-chair {
+    margin: 5px 0 0 0;
+    font-size: 11.5px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+  }
+  .about-chair {
+    margin: 0;
+    font-size: 7px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    color: #a8a8a8;
+  }
+}
